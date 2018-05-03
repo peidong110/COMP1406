@@ -1,0 +1,57 @@
+ASSIGNMENT SUBMISSION [1 mark]
+1/1 mark - code uses proper tabbing and spacing and all files submitted properly
+
+
+PART 1 - Song Class [6 marks]
+1/1 mark - constructor properly initialize the song list to be empty
+1/1 mark - toString() method works with proper song count
+1/1 mark - addSong() works properly
+1/1 mark - totalSongTime() works properly
+1/1 mark - implements Comparable interface and has a compareTo() method (unless they did something different in the uniqueDownloads() method, then add these marks down there)
+1/1 mark - compareTo() sorts alphabetically (unless they did something different in the uniqueDownloads() method, then add these marks down there)
+
+PART 1 - User Class [13 marks]
+1/1 mark - register() properly calls registerUser() from MusicExchangeCenter
+1/1 mark - logon() finds user with that name and logs him/her on
+1/1 mark - logoff() finds user with that name and logs him/her off
+1/1 mark - logon()/logOff() both first confirm that user is registered beforehand
+1/1 mark - owner attribute properly updated in addSong() method
+1/1 mark - requestCompleteSongList() builds up array of Strings
+1/1 mark - requestCompleteSongList() checks all online songs
+1/1 mark - requestCompleteSongList() returns proper data
+1/1 mark - requestCompleteSongList() properly formats data similar to assigmment
+1/1 mark - requestSongListByArtist() only produces results that match artist
+1/1 mark - requestSongListByArtist() works with proper formatting
+1/1 mark - downloadSong() in User class uses getSong()
+1/1 mark - downloadSong() adds song properly is found
+
+
+PART 3 - MusicExchangeCenter Class [28 marks]
+1/1 mark - all three attributes created properly
+1/1 mark - constructor intitializes all three attributes properly
+1/1 mark - onLineUsers() returns properly all clients on line
+1/1 mark - allAvailableSongs() loops through all ONLINE users
+1/1 mark - allAvailableSongs() returns proper result
+1/1 mark - toString() works properly shwoing correct counts
+1/1 mark - userWithName() loops through users properly
+1/1 mark - userWithName() works properly
+1/1 mark - registerUser() uses userWithName() above
+1/1 mark - registerUser() works properly
+1/1 mark - availableSongsByArtist() confirms that artist matches before adding
+1/1 mark - availableSongsByArtist() returns proper result for online users only
+1/1 mark - getSong() attempts to match owner and confirms online status
+1/1 mark - getSong() attempts to match title for online songs
+1/1 mark - getSong() returns proper song (or null)
+1/1 mark - getSong() increases royalties for artist when song downloaded
+1/1 mark - getSong() properly accesses/modifies HashMap
+1/1 mark - getSong() properly handles case for new Artist download (HashMap should only contain artists if song was downloaded)
+1/1 mark - getSong() adds song to downloaded list
+1/1 mark - displayRoyalties() accesses HashMap properly
+1/1 mark - displayRoyalties() formatted properly
+1/1 mark - displayRoyalties() shows proper results
+1/1 mark - uniqueDownloads() returns TreeSet<Song>
+1/1 mark - uniqueDownloads() is properly sorted and returned (check Song class for compareTo() method as the simplest solution)
+1/1 mark - songsByPopularity() creates and returns ArrayList<Pair<Integer,Song>>
+1/1 mark - songsByPopularity() able to list only unique songs that were downloaded
+1/1 mark - songsByPopularity() able to count downloads properly
+1/1 mark - songsByPopularity() proper list of pair objects is returned
