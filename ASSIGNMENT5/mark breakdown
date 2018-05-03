@@ -1,0 +1,57 @@
+YOU NEED THOSE PICTURE IN ORDER TO RUN IT ASSIGNMENT SUBMISSION [2 marks] : 2
+
+/1 mark - code uses proper tabbing and spacing
+
+/1 mark - all image files included properly
+
+
+
+
+
+Slide Puzzle Game [23 marks] : 22
+
+----------------------------
+
+/1 mark - tile buttons arranged in 4x4 grid
+
+/1 mark - tile buttons properly (reasonably) spaced
+
+/1 mark - tile buttons blank upon startup
+
+/1 mark - thumbnail image/ listView, stop button, time label, TexField added
+
+/1 mark - window looks nicely arranged with margins, component sized etc..
+
+/1 mark - ListView contains at least the 4 puzzles given
+
+/1 mark - selecting puzzle in ListView makes appropriate Thumbnail appear
+
+/1 mark - Thumbnail appears enabled when game is not running/ disabled when game is running
+
+/1 mark - Start/Stop button properly coloured/labelled correctly
+
+/1 mark - Timer started properly when Start button pressed
+
+/1 mark - Textfield shows proper time
+
+/1 mark - Textfield formatted the time correctly
+
+/1 mark - Timer stops when Stop button pressed
+
+/1 mark - When started, tile images appear enabled
+
+0/1 mark - When started, tile images appear shuffled
+
+/1 mark - When started, one tile image (at random position) is replaced with blank
+
+/1 mark - clicking on a tile near the blank one swaps properly
+
+/1 mark - clicking on a tile does not cause Exception due to boundary cases
+
+/1 mark - When stopped manually, tile images all show BLANK.png
+
+2/2 marks - code was able to detect game completion from sliding (i.e., not from pressing Stop)
+
+1/1 mark - When stopped due to game completion, tile images all shown (no blank)
+
+1/1 mark - When stopped due to game completion, tile images all disbaled
