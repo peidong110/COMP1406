@@ -1,0 +1,72 @@
+1/1 mark - code in all classes has consistent/neat indentation
+
+1/1 mark - all files properly submitted
+
+
+
+
+
+(1) Movie,Theatre, Ticket and Patron (6 marks)
+
+----------------------------------------------
+
+1/1 mark - Movie class properly defined (look at code)
+
+1/1 mark - Theatre class properly defined (look at code)
+
+1/1 mark - Theatre class isFull() works properly (look at code)
+
+1/1 mark - Ticket class properly defined (look at code)
+
+1/1 mark - Patron class properly defined (look at code)
+
+1/1 mark - TestProgram produces proper output
+
+
+
+
+
+(2) BoxOffice (17 marks)
+
+------------------------
+
+0/1 mark - BoxOffice attributes properly defined with 2 theatres and some kind of best movie variable (look at code)
+
+1/1 mark - constructor properly sets capacities of theatres (look at code)
+
+0/1 mark - openMovie() sets a movie to open properly (look at code)
+
+0/1 mark - openMovie() updates best movie properly (look at code)
+
+1/1 mark - sellTicket() finds correct theatre (look at code)
+
+1/1 mark - sellTicket() handles case where movie not playing (look at code)
+
+1/1 mark - sellTicket() handles case where movie is sold out (look at code)
+
+1/1 mark - sellTicket() properly increases seatsSold for theatre (look at code)
+
+1/1 mark - sellTicket() properly increases earnings for current movie (look at code)
+
+1/1 mark - returnTicket() handles case where patron has no ticket (look at code)
+
+1/1 mark - returnTicket() properly decreases seatsSold for theatre (look at code)
+
+1/1 mark - returnTicket() properly decreases earnings for current movie (look at code)
+
+1/1 mark - returnTicket() properly removes ticket from patron (look at code)
+
+1/1 mark - bestMovie() compares both theatres (look at code)
+
+0/1 mark - bestMovie() compares against recorded best movie (look at code)
+
+0/1 mark - bestMovie() returns proper result (look at code)
+
+1/1 mark - BoxOfficeTestProgram produces proper output
+
+
+
+
+
+Total: 20/25
+
