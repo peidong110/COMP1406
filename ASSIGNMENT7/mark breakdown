@@ -1,0 +1,20 @@
+1/1 mark - coding style (reasonably efficient code and well formatted)
+
+1/1 mark - print() prints properly
+1/1 mark - findStart() method returns a Point2D indicating a black pixel (or null if none)
+1/1 mark - partSize() method returns number of black pixels in image
+
+IF expandFrom() is recursive, then these 6 marks are allowed, otherwise not:
+  1/1 mark - method handles border cases (may not be explicit as base case)
+  1/1 mark - method "marks off" pixels as having been visited or black pixels as white
+  1/1 mark - method does not expand from white pixels
+  1/1 mark - method expands from black pixels
+  1/1 mark - method checks all 4 directions from a black pixel
+  1/1 mark - method works properly in all tested cases
+
+IF perimeterOf() is recursive, then these 5 marks are allowed, otherwise not:
+  1/1 mark - method handles border cases (may not be explicit as base case)
+  1/1 mark - method marks off pixels as having been visited 
+  1/1 mark - method returns some kind of perimeter value that includes at least the inner squares
+  1/1 mark - method returns proper perimeter values, including borders
+  1/1 mark - method works properly in all tested cases (for broken parts, they may find the perimeter of ANY piece)
