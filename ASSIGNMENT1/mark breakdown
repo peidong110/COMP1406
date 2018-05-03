@@ -1,0 +1,32 @@
+1/1 mark - code in all classes has consistent/neat indentation 
+Quiz program (7 marks):
+-----------------------
+1/1 mark - n1 generated randomly in range of 0 to 99
+1/1 mark - n2 generated randomly in range of 0 to n1
+1/1 mark - operation generated randomly with proper equation shown
+1/1 mark - able to get integer guess from the user
+1/1 mark - able to properly detect when answer is correct
+1/1 mark - properly displays message when answer is incorrect, with correct answer shown
+1/1 mark - properly computes and displays the % of correct answers at the end
+
+
+Histogram Program (7 marks):
+----------------------------
+1/1 mark  - creates the byte[] properly
+1/1 mark  - fills the byte array with random values from 0 to 9
+1/1 mark  - displays the left axis of histogram ok
+3/3 marks  - displays proper number of * characters for each row of histogram
+1/1 mark  - display looks nice
+
+
+Image Program (10 marks):10
+------------------------------------
+1/1 mark  - creates the boolean[] properly
+1/1 mark  - computes a random row and column properly
+1/1 mark  - fills the array properly
+2/2 marks  - displays the image properly
+1/1 mark  - counts horizontal sequences properly
+1/1 mark  - computes the correct maximum horizontal sequence 
+1/1 mark  - counts vertical sequences properly
+1/1 mark  - computes the correct maximum vertical sequence 
+1/1 mark  - displays the maximum sequence values correctly
